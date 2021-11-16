@@ -1,0 +1,32 @@
+.custodial-wallet-main {
+  display: flex;
+  background-color: var(--bg-color);
+}
+
+.custodial-wallet-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 5rem;
+  width: 100%;
+  gap: 2rem;
+}
+
+.custodial-wallet-header {
+  font-weight: 500;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.custodial-wallet-selector {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid red;
+}
+
+#custodial-wallet-add-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center !important;
+}
